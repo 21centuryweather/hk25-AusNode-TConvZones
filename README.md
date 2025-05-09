@@ -1,17 +1,63 @@
-# add project name here  <img src='https://21centuryweather.org.au/wp-content/uploads/Hackathon-Image-WCRP-Positive-1536x736.jpg' align="right" height="139" />
-
-Project description, please include the main idea and questions that motivate the project.
+# Representation of Convergence Zones in km-scale model runs (hk25-AusNode-TConvZones)  <img src='https://21centuryweather.org.au/wp-content/uploads/Hackathon-Image-WCRP-Positive-1536x736.jpg' align="right" height="139" />
 
 
-**Project leads:** name, affiliation/github username
+![./img/img1.png](img1)
 
-**Project members:** name, affiliation/github username
+The biases in the representation of tropical rainfall patterns, particularly arising from systematic biases in tropical convergence zones, have been a long-standing aspect across generations of climate models. Two major biases are the Double ITCZ bias and the baises in the meridional extent of the seasonal cycle of the ITCZ as well as the location of other major convergence zones. These biases have been shown to be associated with rainfall drizzling biases in AMIP and CMIP models, as well as biases associated with deep/strong convection and air circulation patterns. Through this project we will attempt to unravel the representation of convergence zones and associated tropical rainfall patterns in the tropics in km-scale model runs and we will examine the potential source of existing biases/improvements in biases in comparison to CMIP/AMIP models and observations. Here are the main research questions we are trying to address:
 
-**Collaborators:** list here other collaborators to the project.
+Primary research question:
 
-**Data:**
-* Name, link
-* Name, link
+- How well do high resolution “km-scale” storm-resolving models simulate the Tropical Convergence Zones and its seasonal cycle over different ocean basins, and what are the reasons for these improvements?
+
+
+Secondary research questions:
+
+- If the double ITCZ bias is reduced in the “km-scale” model runs, then are the improvements related to the improvements in drizzling bias in these models?
+
+- Are the improvements in the seasonal cycle of the ITCZ related to improved representation of winds and seasonality of wind-reversal associated with major monsoon systems in the tropics?
+
+- Are other major convergence zones, such as the SPCZ, SACZ, etc. in the tropics (shown in Figure 2), better represented in the “km-scale” model runs?
+
+
+See [https://docs.google.com/document/d/1Wnfcz910Y70zxq7FoX4tmrN5GaVDoJqZLpqCGmr1B1E/edit?tab=t.crl7ck8oqyr2](Project Description) for more details.
+
+
+**Project leads:** 
+
+Aditya Sengupta, University of Melbourne (@adisen99)
+
+**Project members:** 
+
+Sibyl Cheng, University of New South Wales (@sibylcheng), 
+
+Sreyasi Biswas, Indian Institute of Technology, Bombay
+
+**Collaborators:** 
+
+Nicola Maher, The Australian National University (@nicolamaher)
+
+
+## Data
+
+Variables from the km-scale atmosphere only model run: 
+
+- Precipitation rate/accumulated rainfall totals, 
+- Low-level cloud fraction (LLC; if available), 
+- ToA radiative fluxes;
+- Wind at different pressure levels;
+-  Surface specific humidity. 
+- Total column water vapour (TCWV)
+
+Same variables required from CMIP6/AMIP6 models accessed through NCI
+
+In addition, we will require access to observation datasets for 
+
+- precipitation (GPM-IMERG or GPCP or TRMM); 
+- CERES dataset for ToA radiative fluxes;
+- cloud fraction data from CALIPSO;
+- Wind speed data from reanalysis datasets (20CR or ERA5)
+- Observation or reanalysis TCWV
+
 
 ## Contributing Guidelines
 
