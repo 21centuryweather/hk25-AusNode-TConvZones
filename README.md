@@ -1,8 +1,6 @@
 # Representation of Convergence Zones in km-scale model runs (hk25-AusNode-TConvZones)  <img src='https://21centuryweather.org.au/wp-content/uploads/Hackathon-Image-WCRP-Positive-1536x736.jpg' align="right" height="139" />
 
 
-![img](./img/img1.png)
-
 The biases in the representation of tropical rainfall patterns, particularly arising from systematic biases in tropical convergence zones, have been a long-standing aspect across generations of climate models. Two major biases are the Double ITCZ bias and the baises in the meridional extent of the seasonal cycle of the ITCZ as well as the location of other major convergence zones. These biases have been shown to be associated with rainfall drizzling biases in AMIP and CMIP models, as well as biases associated with deep/strong convection and air circulation patterns. Through this project we will attempt to unravel the representation of convergence zones and associated tropical rainfall patterns in the tropics in km-scale model runs and we will examine the potential source of existing biases/improvements in biases in comparison to CMIP/AMIP models and observations. Here are the main research questions we are trying to address:
 
 Primary research question:
@@ -20,6 +18,9 @@ Secondary research questions:
 
 
 See [Project Description](https://docs.google.com/document/d/1Wnfcz910Y70zxq7FoX4tmrN5GaVDoJqZLpqCGmr1B1E/edit?tab=t.crl7ck8oqyr2) for more details.
+
+
+![img](./img/img1.png)
 
 
 **Project leads:** 
