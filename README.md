@@ -20,8 +20,6 @@ Secondary research questions:
 See [Project Description](https://docs.google.com/document/d/1Wnfcz910Y70zxq7FoX4tmrN5GaVDoJqZLpqCGmr1B1E/edit?tab=t.crl7ck8oqyr2) for more details.
 
 
-![img](./img/img1.png)
-
 
 **Project leads:** 
 
