@@ -76,20 +76,27 @@ All tasks and activities will be managed through GitHub Issues. While most discu
 
 ### Repository structure
 
-This is how the project should look like but make sure to change the name `template-hackathon-project` to something meaningful. 
+This is how the project looks like
 
 ```bash
-template-hackathon-project/
-├── LICENCE
-├── README.md
-├── template_project_hackathon
-│   ├── analysis.py
-│   ├── __init__.py
-│   └── read.py
-└── tests
-    ├── test_analysis.py
-    └── test_read.py
+.
+├── functions
+│   └── AS_custom_functions.py
+├── notebooks
+│   ├── AS_01_analysing_itcz.ipynb
+│   └── AS_02_analysing_seasonal_cycle.ipynb
+├── scripts
+├── tests
+├── util
+└── README.md
 ```
-* `template_hackathon_project/` this folder will include the code to analysis the data.
-* `tests/` this folder contains test code that verifies that your code does what it should.
+
+* `functions/` this folder contains your custom functions which you will be using for your work.
+* `notebooks/` your notebooks which you can name as 'initials_number_description.ipynb'
+* `scripts/` your scripts which you can name as 'initials_number_description.py'
+* `tests/` your tests which you can name as 'initials_number_test_description.py'
+* `util/` your utility functions which you use occasionally or only once as 'initials_number_util_file_description.py'
+
+
+Certain folders which will contain personal files or large files like `images` and `docs` are excluded and won't be pushed to GitHub and will remain on your local system.
 
